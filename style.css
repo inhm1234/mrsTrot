@@ -381,6 +381,10 @@ body {
 .yong_tak-trot-title{
     color:#31849b;
 }
+.ad-banner{
+    width: 320px;
+    margin: 0 auto;
+}
 
 label {
     cursor: pointer;
