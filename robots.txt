@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitmap: https://mrstrot.netlify.app/sitemap.xml
