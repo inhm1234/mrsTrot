@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
         <!-- Bootstrap CSS -->
         <link
             rel="stylesheet"
@@ -43,12 +43,12 @@
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            
+
             function gtag() {
                 dataLayer.push(arguments);
             }
-            gtag('js',new Date());
-            gtag('config','UA-145482737-6');
+            gtag('js', new Date());
+            gtag('config', 'UA-145482737-6');
         </script>
     </head>
 
@@ -141,8 +141,11 @@
                     <button
                         type="button p-2"
                         class="try-again-btn"
-                        onclick="gaReload1();" data-toggle="modal" data-target="#adModal">
+                        onclick="gaReload1();"
+                        data-toggle="modal"
+                        data-target="#adModal"
                     >
+                        >
                         <span class="try-again-text">다른 사진으로 재시도</span>
                     </button>
                 </div>
@@ -156,7 +159,17 @@
                 data-ad-width="320"
                 data-ad-height="100"
             ></ins>
-        </div>     
+        </div>
+        <div class="mt-2 container d-flex justify-content-center ad-baner">
+            <ins
+                class="kakao_ad_area"
+                style="display: none;"
+                data-ad-unit="DAN-zOYwDCbPZ6e9LpuT"
+                data-ad-width="300"
+                data-ad-height="250"
+            ></ins>
+        </div>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
         <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
         <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
         <footer class="footer pt-5 container d-flex justify-content-center"></footer>
@@ -203,10 +216,14 @@
         <div id="disqus_thread"></div>
         <script>
             function gaReload1() {
-                gtag('event','다른 사진으로 재시도 1차', {'event_category': '다른 사진으로 재시도'});
+                gtag('event', '다른 사진으로 재시도 1차', {
+                    event_category: '다른 사진으로 재시도',
+                });
             }
             function gaReload2() {
-                gtag('event','다른 사진으로 재시도 2차', {'event_category': '다른 사진으로 재시도'});
+                gtag('event', '다른 사진으로 재시도 2차', {
+                    event_category: '다른 사진으로 재시도',
+                });
                 window.location.reload();
             }
         </script>
@@ -263,10 +280,10 @@
                     reader.onload = function (e) {
                         $('.image-upload-wrap').hide();
 
+                        $('#loading').show();
                         $('.file-upload-image').attr('src', e.target.result);
                         $('.file-upload-content').show();
 
-                        $('#loading').show();
 
                         $('.image-title').html(input.files[0].name);
                     };

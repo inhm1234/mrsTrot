@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+    font-family: 'Jua', sans-serif;
+    box-sizing: border-box;
   background-color: #ffffff;
 }
 
@@ -179,7 +180,8 @@ body {
 }
 
 .youtube-icon{
-    width:8%;
+    width:30px;
+     height: 27.262px;
 }
 
 .file-upload {
@@ -231,121 +233,121 @@ body {
 }
 .im_hero-box{
     position: absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color:rgba(117,204,84,0.2);
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
 }
 .im_hero-bar {
-    position:absolute;
-    top: 0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(117,204,84,1);
+   position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
 }
 .Yi_chanwon-box{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    width: 100%;
-    background-color:rgba(117,204,84,0.2);
+   position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
 }
 .Yi_chanwon-bar{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(117,204,84,1);
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
 }
 
 .Jung_dongwon-box{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    width: 100%;
-    background-color:rgba(27,175,234,0.2);
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
 }
 .Jung_dongwon-bar{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(27,175,234,1);
+     position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
 }
 
 .Kim_hejae-box{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    width: 100%;
-    background-color:rgba(251,176,59,0.2);
+   position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
 }
 .Kim_hejae-bar{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(251,176,59,1);
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
 }
 
 .Jang_minho-box{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    width: 100%;
-    background-color:rgba(195,149,102,0.2);
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
 }
 .Jang_minho-bar{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(195,140,102,1);
+   position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
 }
 
 .yong_tak-box{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    width: 100%;
-    background-color:rgba(49,132,155,0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
 }
 .yong_tak-bar{
-    position:absolute;
-    top:0;
-    left:0;
-    height:2rem;
-    border-radius:10px;
-    background-color:rgba(49,132,155,1);
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(49, 132, 155, 1);
 }
 
 
 .percent-text{
-    font-size:1rem;
-    color:#ffffff;
+  font-size: 1rem;
+  color: #ffffff;
 }
 
 .trot-label{
-    width:20%;
-    text-align:left;
-    height:2rem;
+    width: 20%;
+    text-align: left;
+    height: 2rem;
 }
 
 #label-container{
